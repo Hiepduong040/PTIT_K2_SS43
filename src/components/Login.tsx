@@ -23,9 +23,9 @@ export default function Login() {
             </div>
             <br />
             <div className="mb-3">
-              <p className="mb-1.5">Password</p>
+              <p className="mb-1.5 ">Password</p>
               <input
-                className="px-3 border-solid h-10 w-96 border-2 rounded-md"
+                className=" px-3 border-solid h-10 w-96 border-2 rounded-md"
                 type="text"
                 placeholder="Placeholder content"
               />
@@ -44,7 +44,7 @@ export default function Login() {
               <div className="border-b border-gray-300 w-full"></div>
             </div>
             <br />
-            <Button className="w-96 border-current" variant="">
+            <Button className="w-96 hover:border-sky-300 border-current" variant="">
               Register now
             </Button>
           </div>
